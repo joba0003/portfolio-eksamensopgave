@@ -68,6 +68,14 @@ img {
 .button {
   margin-bottom: 2rem;
 }
+.link {
+  background-color: rgba(235, 95, 42, 1);
+  padding: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  /* text-decoration: none; --- virker ikke */
+  font-family: Klee One;
+}
 
 @media (max-width: 900px) {
   .grid_1_1_1_1 {
