@@ -116,7 +116,7 @@ body {
 .generel_main {
   background-color: rgba(186, 170, 47, 1);
   padding: 40px;
-  margin: 40px;
+  margin: 100px;
 }
 
 h1 {
@@ -125,6 +125,18 @@ h1 {
   text-align: center;
   font-size: 64px;
 }
+h2 {
+  font-family: Playwrite US Modern;
+  color: rgba(17, 58, 139, 1);
+  text-align: center;
+}
+
+p {
+  font-family: Klee One;
+  color: rgba(17, 58, 139, 1);
+  text-align: center;
+}
+
 .underoverskrift {
   font-family: Klee One;
   font-size: 32px;
