@@ -117,3 +117,21 @@ main {
   padding: 40px;
   margin: 40px;
 }
+
+h1 {
+  font-family: Playwrite US Modern;
+  color: rgba(17, 58, 139, 1);
+}
+
+/* fonte */
+.playwrite-us-modern {
+  font-family: "Playwrite US Modern", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.klee-one-regular {
+  font-family: "Klee One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
