@@ -110,9 +110,10 @@ nav {
 
 body {
   background-image: url(billeder_opdateret/baggrund.svg);
+  background-size: cover;
 }
 
-main {
+.generel_main {
   background-color: rgba(186, 170, 47, 1);
   padding: 40px;
   margin: 40px;
@@ -120,6 +121,14 @@ main {
 
 h1 {
   font-family: Playwrite US Modern;
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+.underoverskrift {
+  font-family: Klee One;
+  font-size: 32px;
+  text-align: center;
   color: rgba(17, 58, 139, 1);
 }
 

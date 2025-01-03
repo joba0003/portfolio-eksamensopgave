@@ -9,5 +9,51 @@ img {
   display: block;
 }
 
+.grid_1_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 200px 50px 50px 50px;
+}
+
+.grid_img_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid_1_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* button styling */
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  margin-top: 3rem;
+  font-size: 10px;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: rgba(17, 58, 139, 1);
+}
+
+.button {
+  background-color: rgba(186, 170, 47, 1);
+  display: flex;
+  width: fit-content;
+  padding: 7px 67px 7px 25px;
+  border: 1px solid rgb(255, 255, 255);
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Klee One";
+  font-size: 16px;
+}
+
+.button_logo {
+  background-color: rgba(186, 170, 47, 1);
+}
+
 @media (min-width: 900px) {
 }
