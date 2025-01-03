@@ -6,7 +6,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  background-color: white;
+  background-color: rgba(186, 170, 47, 1);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,14 +38,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #333333;
+  color: rgba(17, 58, 139, 1);
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: pink;
+  color: red;
 }
 
 .burger {
@@ -88,7 +88,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #ffffff;
+    background-color: rgba(186, 170, 47, 1);
     position: absolute;
     top: 94px;
     left: 0;
@@ -104,4 +104,16 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
+}
+
+/* style */
+
+body {
+  background-image: url(billeder_opdateret/baggrund.svg);
+}
+
+main {
+  background-color: rgba(186, 170, 47, 1);
+  padding: 40px;
+  margin: 40px;
 }
