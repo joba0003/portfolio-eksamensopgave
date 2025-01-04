@@ -69,6 +69,10 @@ img {
   padding: 20px;
 }
 
+.top {
+  padding: 20px;
+}
+
 .galleri_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
