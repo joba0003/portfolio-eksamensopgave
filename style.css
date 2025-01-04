@@ -135,6 +135,18 @@ p {
   font-family: Klee One;
   color: rgba(17, 58, 139, 1);
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.cv {
+  font-family: Klee One;
+  color: rgba(17, 58, 139, 1);
+  text-align: center;
+  padding: 20px;
+}
+
+.cv li {
+  list-style: none;
 }
 
 .underoverskrift {
