@@ -48,11 +48,6 @@ img {
   background-color: rgba(186, 170, 47, 1);
 }
 
-.img {
-  padding: 20px;
-  object-fit: cover;
-}
-
 .text {
   padding: 20px;
 }
@@ -71,6 +66,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  padding: 20px;
 }
 
 .galleri_1 {
@@ -106,6 +102,11 @@ img {
   .galleri_1 {
     display: inline;
     padding: 20px;
-    /* gap: 20px; ---- virker ikke*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .underoverskrift {
+    font-size: medium;
   }
 }
