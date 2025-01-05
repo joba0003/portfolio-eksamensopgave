@@ -156,4 +156,7 @@ a {
   .grid_1_1_1_1 {
     padding: 10px;
   }
+  h1 {
+    font-size: 40px;
+  }
 }
