@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   font-family: Playwrite US Modern;
   align-items: center;
+  z-index: 10;
   padding: 25px;
   background-color: rgba(186, 170, 47, 1);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -65,9 +66,10 @@ nav {
 .burger {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .menu {
     display: none;
+    z-index: 10;
   }
   .burger {
     display: block;

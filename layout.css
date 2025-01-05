@@ -85,8 +85,33 @@ img {
   padding: 40px;
   border: 1px solid rgb(255, 255, 255);
   text-align: center;
-  /* text-decoration: none; --- virker ikke */
   font-family: Klee One;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-image: url(billeder_opdateret/selfie_top.webp);
+  background-size: cover;
+}
+.figma {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  padding: 0;
+}
+.figma iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 900px) {
@@ -94,6 +119,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 200px 50px 50px 50px;
+    gap: 20px;
   }
   .grid_img_1 {
     display: inline;
@@ -112,5 +138,12 @@ img {
   }
   .underoverskrift {
     font-size: medium;
+  }
+  .galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .top {
+    padding: 0px;
   }
 }
