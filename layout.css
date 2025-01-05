@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-img {
+.img {
   width: 100%;
   height: 100%;
   display: block;
+  padding: 20px;
 }
 
 .grid_1_1_1_1 {
@@ -54,19 +55,15 @@ img {
 .grid_img_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
 }
 .grid_1_img {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
 }
 
 .galleri {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  padding: 20px;
 }
 
 .top {
@@ -76,8 +73,6 @@ img {
 .galleri_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 20px;
 }
 
 .link {
@@ -121,16 +116,21 @@ a {
     padding: 100px 50px 50px 50px;
     gap: 20px;
   }
-
-  .img {
-    padding: 20px;
-  }
   .grid_img_1 {
-    display: inline;
+    display: block;
+  }
+
+  .grid_1_img {
+    display: block;
+  }
+  .figma iframe {
     padding: 20px;
   }
-  .grid_1_img {
-    display: inline;
+
+  .link {
+    padding: 20px;
+  }
+  .img {
     padding: 20px;
   }
   .galleri_1 {
@@ -184,5 +184,19 @@ a {
   .forsideintro {
     padding: 0px;
     margin: 0px;
+  }
+  .figma iframe {
+    padding: 10px;
+  }
+
+  .link {
+    padding: 10px;
+  }
+  .grid_img_1 {
+    display: block;
+  }
+
+  .grid_1_img {
+    display: block;
   }
 }
