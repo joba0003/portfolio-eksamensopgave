@@ -12,7 +12,7 @@ img {
 .grid_1_1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 200px 50px 50px 50px;
+  padding: 40px 50px 50px 50px;
 }
 
 /* button styling */
